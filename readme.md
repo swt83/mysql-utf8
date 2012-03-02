@@ -1,6 +1,6 @@
 #About
 
-This code as lifted completely from http://www.phpwact.org/php/i18n/utf-8/mysql.  I have no idea who wrote it, but I've been using it for years.  It prints mysql code to convert an existing database to UTF8 collation.
+This code was lifted completely from http://www.phpwact.org/php/i18n/utf-8/mysql.  I have no idea who wrote it, but I've been using it for years.  Accessed via web browser, the script prints mysql code to convert an existing database to UTF8 collation.
 
 ##Usage
 
