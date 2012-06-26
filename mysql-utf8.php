@@ -22,7 +22,7 @@ $show_alter_field = true;
 $username = $_GET['user'];
 $password = $_GET['pass'];
 $database = $_GET['db'];
-$host     = 'localhost';
+$host     = isset($_GET['host']) ? $_GET['host'] : 'localhost';
  
 mysql_connect($host, $username, $password);
 mysql_select_db($database);

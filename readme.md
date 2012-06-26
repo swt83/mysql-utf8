@@ -4,4 +4,4 @@ This code was lifted completely from http://www.phpwact.org/php/i18n/utf-8/mysql
 
 ##Usage
 
-Just point your browser to ``mysql-utf8.php?user=MYUSER&pass=MYPASS&db=MYDB`` and the script will print a chunk of mysql code.  Copy the code, paste into phpMyAdmin, execute, and you're done.
+Just point your browser to ``mysql-utf8.php?user=MYUSER&pass=MYPASS&db=MYDB`` and the script will print a chunk of mysql code.  Copy the code, paste into phpMyAdmin, execute, and you're done.  You can optionally add a ``&host=YOUR_SERVER`` var to the URI, the default is ``localhost``.
